@@ -1,0 +1,203 @@
+body {
+  font-family: "Inter";
+}
+.header {
+  font-family: "Permanent Marker";
+  text-align: center;
+  color: blue;
+}
+
+.sub-heading {
+  color: #5e5d5d;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+.header-heading {
+  margin-left: 1.5rem;
+  text-align: center;
+}
+.general-btn {
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-square {
+  border-radius: none;
+}
+
+.btn-round {
+  border-radius: 200px;
+}
+
+.color-red {
+  color: red;
+  background-color: rgb(240, 176, 176);
+}
+
+.color-gray {
+  color: black;
+  background-color: lightgray;
+}
+
+.color-blue {
+  color: blue;
+  background-color: lightblue;
+}
+
+.color-green {
+  color: green;
+  background-color: lightgreen;
+}
+
+.color-pink {
+  color: palevioletred;
+  background-color: lightpink;
+}
+
+.color-purple {
+  color: purple;
+  background-color: rgb(252, 51, 252);
+}
+
+.parent-cont {
+  /* border: 2px solid orange; */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.child-one,
+.child-two {
+  display: flex;
+  gap: 1rem;
+}
+
+.child-one {
+  margin-bottom: 1rem;
+}
+
+/* Banner */
+
+.banner-cont {
+  /* display: inline-block; */
+  padding: 0.5rem;
+  padding-left: 1rem;
+  border-radius: 10px;
+}
+
+.cont-Congrasulations {
+  background-color: lightgreen;
+  color: green;
+}
+
+.cont-Problem {
+  background-color: rgb(248, 183, 183);
+  color: red;
+}
+
+.cont-Update {
+  background-color: lightblue;
+  color: blue;
+}
+
+.cont-Attention {
+  background-color: #f2e9c4;
+  color: #b45309;
+}
+
+.banner-main-cont {
+  /* border: 5px solid red; */
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+}
+/* .banner-child-one {
+  border: 2px solid purple;
+}
+
+.banner-child-two {
+  border: 2px solid orange;
+} */
+
+.head {
+  /* border: 5px solid cyan; */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.head > i {
+  font-size: 1.5rem;
+}
+
+.banner-child-one,
+.banner-child-two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Card component */
+
+.card-parent {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.card-cont {
+  /* border: 5px solid red; */
+  padding: 2rem 2rem;
+  text-align: center;
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(237, 237, 237);
+}
+
+.card-cont > i {
+  font-size: 3rem;
+}
+
+.card-cont:hover {
+  background-color: lightgray;
+}
+
+.testimonial-cont {
+  /* border: 2px solid red; */
+  background-color: gainsboro;
+  max-width: 600px;
+  height: 300px;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.icon-cont {
+  /* border: 2px solid red; */
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-cont > i {
+  font-size: 2rem;
+  color: green;
+}
